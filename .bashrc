@@ -123,3 +123,6 @@ export NVS_HOME="$HOME/.nvs"
 [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
 
 if [[ $(which code-insiders) && ! $(which code) ]]; then alias code=code-insiders; fi
+
+
+echo "Just testing the symlinking"
