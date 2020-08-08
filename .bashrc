@@ -125,4 +125,5 @@ export NVS_HOME="$HOME/.nvs"
 if [[ $(which code-insiders) && ! $(which code) ]]; then alias code=code-insiders; fi
 
 
-echo "Just testing the symlinking"
+PATH=$HOME/.cargo/bin:$PATH
+source $HOME/.cargo/env
